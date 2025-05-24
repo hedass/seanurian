@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hedass.github.io/seanurian/sitemap.xml
