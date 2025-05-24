@@ -27,31 +27,69 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="preloader">
-      <div class="spinner"></div>
+      <div class="preloader-content">
+        <div class="preloader-logo">
+          <span>S</span>
+          <span class="logo-dot"></span>
+          <span>U</span>
+        </div>
+        <div class="loading-bar-container">
+          <div class="loading-bar"></div>
+        </div>
+        <div class="preloader-text">Loading Portfolio</div>
+      </div>
     </div>
-
     <nav class="navbar">
       <div class="nav-container">
-        <div class="nav-logo">SU</div>
+        <a href="#" class="nav-brand" aria-label="Back to top">
+          <div class="nav-logo">
+            <span>S</span>
+            <span class="logo-dot"></span>
+            <span>U</span>
+          </div>
+          <div class="nav-title">Sean<span class="highlight">Urian</span></div>
+        </a>
         <div class="nav-links">
-          <a href="#summary">Summary</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#skills">Skills</a>
-          <a href="#achievements">Achievements</a>
+          <a href="#summary" data-text="Summary">
+            <i class="fas fa-user-circle"></i>
+            <span>Summary</span>
+          </a>
+          <a href="#experience" data-text="Experience">
+            <i class="fas fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+          <a href="#education" data-text="Education">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Education</span>
+          </a>
+          <a href="#skills" data-text="Skills">
+            <i class="fas fa-code"></i>
+            <span>Skills</span>
+          </a>
+          <a href="#achievements" data-text="Achievements">
+            <i class="fas fa-trophy"></i>
+            <span>Achievements</span>
+          </a>
           <a href="resume.pdf" download class="nav-download">
-            <i class="fas fa-download"></i> Resume
+            <i class="fas fa-file-download"></i>
+            <span>Resume</span>
           </a>
         </div>
         <div class="mobile-menu-btn">
-          <i class="fas fa-bars"></i>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </nav>
@@ -381,20 +419,34 @@
           >
             <i class="fab fa-github"></i>
           </a>
-          <a href="mailto:seanurian@gmail.com" aria-label="Email">
+          <a
+            href="mailto:seanurian@gmail.com"
+            onclick="window.location.href='mailto:seanurian@gmail.com'; return false;"
+            aria-label="Email"
+          >
             <i class="fas fa-envelope"></i>
           </a>
         </div>
         <p>© <span id="current-year"></span> Sean Zeliq Urian</p>
       </footer>
     </div>
-
-    <div class="theme-toggle">
+    <div class="theme-toggle" aria-label="Toggle dark mode">
       <i class="fas fa-moon"></i>
     </div>
 
-    <div class="scroll-to-top">
+    <div class="scroll-to-top" aria-label="Scroll to top">
+      <svg class="progress-ring" width="55" height="55" viewBox="0 0 55 55">
+        <circle
+          class="scroll-progress-path"
+          cx="27.5"
+          cy="27.5"
+          r="23"
+          fill="none"
+          stroke-width="3"
+        />
+      </svg>
       <i class="fas fa-arrow-up"></i>
+      <span class="tooltip">Back to top</span>
     </div>
 
     <script src="script.js"></script>
