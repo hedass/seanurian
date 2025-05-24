@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://seanurian.com/sitemap.xml
+Sitemap: https://hedass.github.io/seanurian/sitemap.xml
