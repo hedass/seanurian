@@ -1,116 +1,104 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{tabularx}
+\setlist[itemize]{leftmargin=1.5em, topsep=2pt, itemsep=2pt}
 
 \begin{document}
 
 \begin{center}
-    \textbf{\Large Sean Zeliq Urian} \\
-    Tangerang Selatan, Banten \\
-    Mobile: 0857 7677 6388 \\
-    Email: \href{mailto:seanurian@gmail.com}{seanurian@gmail.com} \\
-    LinkedIn: \href{https://linkedin.com/in/seanurian}{linkedin.com/in/seanurian} \\
+    {\LARGE \textbf{Sean Zeliq Urian}} \\
+    \vspace{0.5em}
+    Tangerang Selatan, Banten \quad | \quad 085776776388 \quad | \quad \href{mailto:seanurian@gmail.com}{seanurian@gmail.com} \\
+    \href{https://www.linkedin.com/in/seanurian}{https://www.linkedin.com/in/seanurian}
 \end{center}
 
-\vspace{0.5cm}
+\vspace{1em}
+\section*{WORK EXPERIENCE}
 
-\section*{Professional Summary}
-Software Engineer with experience building scalable full-stack applications, optimizing systems, and delivering solutions in frontend, backend, and DevOps. Proficient in TypeScript, JavaScript, Java, Go, and Python, with a strong grasp of microservices, Kafka, and Kubernetes.
-
-\section*{Work Experience}
-
-\textbf{Associate Software Engineer} \\
-ECOMINDO (PT. ECOMINDO SARANACIPTA) \\
-\textit{Jul 2024 -- Present}
-\begin{itemize}[leftmargin=*]
-    \item Developed an online procurement and tender system for Sinarmas Land, integrating RAB, vendor management, and PO issuance.
-    \item Built a financial dashboard and Kafka-based data synchronization for IFG Life.
-    \item Optimized data ingestion pipelines and reduced system latency.
+\textbf{ECOMINDO (PT. ECOMINDO SARANACIPTA)} \\
+\textit{Associate Software Engineer} \hfill Jul 2024 -- Present
+\begin{itemize}
+    \item \textbf{Sinarmas Land - Procurement Surrounding System Project}
+    \begin{itemize}
+        \item Developed a streamlined and effective online procurement and tender system for Sinarmas Land.
+        \item Integrated all existing processes and features from previous applications and systems, including tender processes, RAB preparation, procurement analysis, vendor management, and Purchase Order issuance.
+    \end{itemize}
+    \item \textbf{IFG Life - Financial Institution Pension Fund}
+    \begin{itemize}
+        \item Designed and implemented a financial operations dashboard within a microservices architecture, enabling streamlined management of transactional inflows and outflows.
+        \item Engineered a Kafka-based data synchronization layer, ensuring reliable, real-time consistency across heterogeneous databases and decoupled services.
+        \item Optimized large-scale data ingestion pipelines, significantly reducing operational latency.
+    \end{itemize}
+\end{itemize} \\
+\textbf{PINTARNYA (PT. PINTARNYA SOLUSI TEKNOLOGI)} \\
+\textit{Software Engineer} \hfill Dec 2022 -- Jun 2024
+\begin{itemize}
+    \item Led the successful launch of Cari Pinjaman as a Full-Stack Engineer, delivering a robust end-to-end solution.
+    \item Redesigned and modernized the homepage and Cari Cuan submission flow, improving usability, performance, and engagement.
+    \item Migrated Pintarnya Employer Dashboard from Cloud Run to Kubernetes, reducing GCP VM-related costs by approximately 40\%.
+\end{itemize}\\
+\textbf{RUANGGURU (PT. RUANG RAYA INDONESIA)} \\
+\textit{Software Engineer (Front-End)} \hfill Apr 2022 -- Nov 2022
+\begin{itemize}
+    \item Optimized frame rendering performance on BrainAcademy and Roboguru apps, improving FPS by over 50\% on large datasets.
+    \item Developed a cross-platform UI kit for SkillAcademy using Tamagui, consolidating Web, Android, and iOS into a single codebase.
+    \item Integrated a push notification system for the Roboguru app to enable real-time, targeted user engagement.
+\end{itemize}\\
+\textit{Software Engineer Intern} \hfill Jan 2022 -- Apr 2022
+\begin{itemize}
+    \item Adopted front-end best practices for React and React Native, focusing on performance and maintainability.
+    \item Redesigned asset management strategy, reducing the React Native bundle size to under 10MB.
+    \item Led the successful release of the BrainAcademy app in Indonesia and Vietnam with localization and platform stability.
+\end{itemize}\\
+\textbf{ECOMINDO (PT. ECOMINDO SARANACIPTA)} \\
+\textit{Junior Software Engineer} \hfill Jul 2021 -- Jan 2022
+\begin{itemize}
+    \item Developed multi-user tools/trivia games for an online platform using only Vanilla JS, HTML, and CSS.
+    \item Successfully accommodated over 100 concurrent users during the initial launch.
 \end{itemize}
 
-\textbf{Software Engineer} \\
-PINTARNYA (PT. PINTARNYA SOLUSI TEKNOLOGI) \\
-\textit{Dec 2022 -- Jun 2024}
-\begin{itemize}[leftmargin=*]
-    \item Delivered "Cari Pinjaman" as a Full-Stack Engineer.
-    \item Enhanced homepage UX and improved submission flow for "Cari Cuan".
-    \item Migrated infrastructure to Kubernetes, reducing cloud costs by 40\%.
+\section*{ORGANIZATION}
+
+\textbf{BIMBEL MENGEJAR UI} \\
+\textit{Vice Project Officer} \hfill 2019 -- 2020
+\begin{itemize}
+    \item Collaborated with the PO to organize Bimbel Mengejar UI 2020.
+    \item Supervised 5 team members in the Media Department for web development supporting online learning.
+    \item Contributed to the success of 7+ students gaining admission to their target universities.
+\end{itemize}\\
+\textit{Human Resource} \hfill 2018 -- 2019
+\begin{itemize}
+    \item Facilitated screening and interviews for 300 prospective students.
+    \item Taught Mock Tests to prepare prospective teachers.
+\end{itemize}\\
+\textbf{SAMABA UI} \\
+\textit{Public Relations} \hfill Jul 2019 -- Sep 2019
+\begin{itemize}
+    \item Assisted new students with pre- and re-registration issues.
 \end{itemize}
 
-\textbf{Software Engineer (Front-End)} \\
-RUANGGURU (PT. RUANG RAYA INDONESIA) \\
-\textit{Apr 2022 -- Nov 2022}
-\begin{itemize}[leftmargin=*]
-    \item Increased FPS by 50\% on BrainAcademy and Roboguru.
-    \item Developed a cross-platform UI kit using Tamagui.
-    \item Integrated push notifications on Roboguru.
-\end{itemize}
+\section*{EDUCATION}
 
-\textbf{Software Engineer Intern} \\
-RUANGGURU \\
-\textit{Jan 2022 -- Apr 2022}
-\begin{itemize}[leftmargin=*]
-    \item Applied React and React Native best practices.
-    \item Reduced React Native bundle size under 10MB.
-    \item Helped launch BrainAcademy app in Indonesia and Vietnam.
-\end{itemize}
+\textbf{University of Indonesia - Depok, Jawa Barat} \hfill Aug 2018 -- Jul 2022 \\
+Bachelor of Computer Science; GPA: 3.5/4.0
 
-\textbf{Junior Software Engineer} \\
-ECOMINDO \\
-\textit{Jul 2021 -- Jan 2022}
-\begin{itemize}[leftmargin=*]
-    \item Built online trivia games using Vanilla JS, HTML, and CSS.
-    \item Supported 100+ concurrent users with stable performance.
-\end{itemize}
 
-\section*{Education}
 
-\textbf{Bachelor of Computer Science} \\
-University of Indonesia, Depok, Jawa Barat \\
-\textit{Aug 2018 -- Jul 2022} \\
-GPA: 3.5 / 4.0
+\section*{ADDITIONAL}
 
-\section*{Organizational Experience}
-
-\textbf{Vice Project Officer} \\
-BIMBEL MENGEJAR UI \\
-\textit{2019 -- 2020}
-\begin{itemize}[leftmargin=*]
-    \item Co-led 2020 Bimbel program.
-    \item Managed media and web teams for remote learning.
-    \item Supported 7+ students in passing national exams.
-\end{itemize}
-
-\textbf{Human Resources} \\
-BIMBEL MENGEJAR UI \\
-\textit{2018 -- 2019}
-\begin{itemize}[leftmargin=*]
-    \item Screened and interviewed 300+ teaching candidates.
-    \item Conducted mock test training sessions.
-\end{itemize}
-
-\textbf{Public Relations} \\
-SAMABA UI \\
-\textit{Jul 2019 -- Sep 2019}
-\begin{itemize}[leftmargin=*]
-    \item Supported freshman registration and onboarding.
-\end{itemize}
-
-\section*{Technical Skills}
-
-\textbf{Languages \& Frameworks:} JavaScript, TypeScript, Java, Go, Python, React, React Native, Next.js, Quarkus, Gatsby, Django \\
-\textbf{DevOps \& Tools:} Kafka, Kubernetes, PostgreSQL, SQL, Git, Docker, CI/CD \\
-\textbf{Concepts \& Practices:} Full Stack Development, Microservices, Agile, Scrum, TDD, Project Management, Problem Solving
-
-\section*{Achievements}
-
-\begin{itemize}[leftmargin=*]
-    \item 1st Place – COMPFEST UI Senior Competitive Programming, 2020
-    \item 2nd Place – GEOFISDAY Python Computing Competition, 2021
-    \item 3rd Place – Capture The Flag, Pekan Ristek FASILKOM UI, 2020
-    \item Participant – ICPC Jakarta Regionals, 2020
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\textbf{Skill:} & Problem Solving, Full Stack, Frontend, Backend, SQL, Scrum, Agile Methodologies, Test Driven Development, Analytical Skill, Project Management \\
+\textbf{Tech Stack:} & Typescript, Javascript, Java, React, React Native, Quarkus, Next, Gatsby, Python, Django, Django Rest, Go, Postgresql, Kafka \\
+\end{tabularx}
+\textbf{Achievements:}
+\begin{itemize}
+    \item 1st Place - Senior Competitive Programming, COMPFEST UI 2020
+    \item 2nd Place - Python Computing Competition, GEOFISDAY 2.0 2021
+    \item 3rd Place - Capture the Flag, Pekan Ristek FASILKOM UI 2020
+    \item Participant - ICPC Jakarta 2020 (Competitive Programming)
 \end{itemize}
 
 \end{document}
