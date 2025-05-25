@@ -41,15 +41,12 @@ To work on this website locally:
 2. Open the folder in your code editor
 3. Open `index.html` in your browser
 
-## Converting LaTeX to PDF
+## Updating the PDF Resume
 
 If you need to update the PDF download:
 
-1. Compile your LaTeX resume file to PDF
-   ```
-   pdflatex resume.tex
-   ```
-2. Move the generated PDF to this project folder
+1. Create or update your PDF resume
+2. Save it as `resume.pdf` in this project folder
 
 ## License
 
