@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Simulate progress (in a real app, this might track actual loading)
   let loadProgress = 0;
   const loadingInterval = setInterval(() => {
-    loadProgress += 5;
+    loadProgress += 14;
     if (loadProgress <= 100) {
       loadingBar.style.width = `${loadProgress}%`;
     } else {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         preloader.style.display = "none";
       }, 500);
     }
-  }, 100);
+  }, 55);
 
   // Fallback to ensure preloader disappears
   window.addEventListener("load", () => {
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Convert hex to RGB for background color to use with transparency
     const getBgRgb = () => {
-      const bgColor = isDark ? "#0f172a" : "#ffffff";
+      const bgColor = isDark ? "#141310" : "#f2f0ea";
       const r = parseInt(bgColor.slice(1, 3), 16);
       const g = parseInt(bgColor.slice(3, 5), 16);
       const b = parseInt(bgColor.slice(5, 7), 16);
